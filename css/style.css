@@ -429,6 +429,8 @@ ion-icon a {
 .project-cont {
 
   max-width: 1000px;
+    
+  max-height: 450px;
 
   margin: auto;
 
