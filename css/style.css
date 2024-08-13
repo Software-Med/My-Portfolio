@@ -224,7 +224,7 @@ ion-icon {
 
 .heading {
 
-  font-size: 18px;
+  font-size: 15px;
 
   margin-top: 5px;
 
@@ -408,6 +408,8 @@ ion-icon a {
 
   padding: 10px;
 
+  overflow: hidden;
+
 }
 
 .box {
@@ -436,6 +438,8 @@ ion-icon a {
 
   gap: 25px;
 
+  overflow: auto hidden;
+
   scroll-snap-type: inline mandatory;
 
   overscroll-behavior-inline: contain;
@@ -451,7 +455,9 @@ ion-icon a {
   padding-bottom: 10px;
 
   aspect-ratio: 1 / 1;
+
   overflow: hidden;
+
   scroll-snap-align: start;
 
 }
@@ -615,4 +621,5 @@ ion-icon a {
     background-position-y: -1rem;
 
   }
+
 }
